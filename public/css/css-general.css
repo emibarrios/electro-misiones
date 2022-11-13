@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-img {
+.aboutUs-img {
     width: 30%;
 }
 
@@ -63,4 +63,105 @@ img {
     padding: 5%;
 }
 
+/* Formas de pago */
 
+#payment h3 {
+    font-size: 24px;
+}
+#credit {
+    border: red 2px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 5px;
+}
+
+#credit-title {
+    width: 100%;
+}
+
+#ahora3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ahora3Img {
+    width: 20%;
+}
+
+#ahora3Info {
+    width: 70%;
+}
+
+#tarjetasImg {
+    width: 100%;
+}
+
+#banco {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#bancocoImg {
+    width: 30%;
+}
+#bancoInfo {
+    width: 60%;
+}
+
+#naranja {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#naranjaImg {
+    width: 25%;
+}
+
+#naranjaInfo {
+    width: 70%;
+}
+#other1 {
+    border: blue 2px solid;
+    margin: 15px;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#other1 article {
+    width: 45%;
+    text-align: center;
+}
+
+#other2 {
+    border: yellow 2px solid;
+    display: flex;
+    margin: 15px;
+    padding:5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#other2 h2 {
+    width: 100%;
+}
+
+#other2 article {
+    width: 45%;
+    text-align: center;
+}
